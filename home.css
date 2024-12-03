@@ -5,11 +5,16 @@
     box-sizing: border-box;
 }
 
-
 body{
     background-color:#660000;
     color: #b82222;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    height: auto;
+}
+
+main{
+    margin-bottom: 75px;
 }
 
 header{
@@ -65,8 +70,6 @@ section{
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 5px;
-    margin-top: 75px;
     width: 25%;
     border: 5px double rgb(184, 73, 73);
     background-color: #3e0f0f;
@@ -96,7 +99,7 @@ section{
     border-radius: 5px;
 }
 
-.logo{
+.antiMcDs{
     display: block;
     margin-top: 50px;
     margin-left: auto;
@@ -105,16 +108,13 @@ section{
 
 footer{
     border: 5px double red;
-    position: fixed;
+    position: absolute;
     text-align: center; 
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(84, 32, 32);
     height: auto; /* Automatically fits in with the text */
-    bottom: 0; 
     width: 100%;
 }
-
-
 
 .footerlinks{
     float: left;
